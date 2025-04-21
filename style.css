@@ -1,0 +1,33 @@
+body {
+    background-color: #121212;
+    color: #F9FAF8;
+    font-family: 'Book Antiqua';
+    max-width: 75%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #332940;
+    padding: 0px 15px;
+    border-radius: 20px;
+}
+
+.logo {
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 30px;
+    margin: 15px
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 15px
+}
+
