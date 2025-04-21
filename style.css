@@ -7,6 +7,7 @@ body {
     display:flex;
     flex-direction: column;
     padding: 20px;
+    gap: 50px
 }
 
 .header {
@@ -31,3 +32,37 @@ ul {
     margin: 15px
 }
 
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+#pfp {
+    height: 200px;
+    width: auto;
+    padding: 0px 30px;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #332940;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.name {
+    font-size: 25px;
+    color: #F9FAF8;
+    margin: 0px
+}
+
+.intro {
+    font-size: 15px;
+    color: #E5E7EB;
+    margin: 0px;
+}
