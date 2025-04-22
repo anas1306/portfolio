@@ -66,3 +66,38 @@ ul {
     color: #E5E7EB;
     margin: 0px;
 }
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: #332940;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#ski {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.set {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon {
+    height: 50px;
+    width: auto;
+    padding: 0px 30px;
+}
