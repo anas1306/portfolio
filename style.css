@@ -55,13 +55,13 @@ ul {
     border-radius: 15px;
 }
 
-.name {
+#txt {
     font-size: 25px;
     color: #F9FAF8;
     margin: 0px
 }
 
-.intro {
+#subtxt {
     font-size: 15px;
     color: #E5E7EB;
     margin: 0px;
@@ -100,4 +100,60 @@ ul {
     height: 50px;
     width: auto;
     padding: 0px 30px;
+}
+
+#cap {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pro1, .pro2 {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    background-color: #332940;
+    padding: 15px;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.pro1 {
+    align-self: flex-start;
+}
+
+.pro2 {
+    align-self: flex-end;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#webp1 {
+    height: 200px;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#webp2 {
+    width:200px;
+    height:auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #332940;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+a {
+    color: #E5E7EB;
 }
