@@ -6,8 +6,8 @@ body {
     margin:auto;
     display:flex;
     flex-direction: column;
-    padding: 20px;
-    gap: 50px
+    padding: 1.25rem;
+    gap: 3.14rem;
 }
 
 .header {
@@ -15,73 +15,78 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #332940;
-    padding: 0px 15px;
+    padding: 0rem 1rem;
     border-radius: 20px;
 }
 
 .logo {
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
-    font-size: 30px;
-    margin: 15px
+    font-size: 3rem;
+    margin: 1rem;
 }
 
 ul {
     list-style: none;
     display: flex;
-    gap: 15px;
-    margin: 15px
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#top-icon {
+    height: 3rem;
+    width: 3rem;
 }
 
 .info {
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: space-around;
+    gap: 1rem;
     align-items: center;
 }
 
 #pfp {
-    height: 200px;
+    max-height: 16rem;
     width: auto;
-    padding: 0px 30px;
+    padding: 0rem 1.875rem;
     border-radius: 50%;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3rem;
     background-color: #332940;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 15px;
 }
 
 #txt {
-    font-size: 25px;
+    font-size: 1.75rem;
     color: #F9FAF8;
     margin: 0px
 }
 
 #subtxt {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #E5E7EB;
-    margin: 0px;
+    margin: 0;
 }
 
 .skill {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 0.5rem;
     background-color: #332940;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 15px;
 }
 
 #ski {
-    font-size: 25px;
+    font-size: 3rem;
     font-weight: bold;
     margin: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .set {
@@ -97,13 +102,13 @@ ul {
 }
 
 #icon {
-    height: 50px;
+    height: 5rem;
     width: auto;
-    padding: 0px 30px;
+    padding: 0px 2rem;
 }
 
 #cap {
-    font-size: 18px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -112,8 +117,8 @@ ul {
     display: flex;
     align-items: center;
     background-color: #332940;
-    padding: 15px;
-    gap: 15px;
+    padding: 1rem;
+    gap: 1rem;
     border-radius: 15px;
 }
 
@@ -128,18 +133,18 @@ ul {
 .data {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3rem;
 }
 
 #webp1 {
-    height: 200px;
+    height: 12.5rem;
     width: auto;
     display: flex;
     border-radius: 10px;
 }
 
 #webp2 {
-    width:200px;
+    width: 12.5rem;
     height:auto;
     display:flex;
     border-radius: 10px;
@@ -150,7 +155,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #332940;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 20px;
 }
 
