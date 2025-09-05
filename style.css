@@ -1,0 +1,164 @@
+body {
+    background-color: #121212;
+    color: #F9FAF8;
+    font-family: 'Book Antiqua';
+    max-width: 75%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    gap: 3.14rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #332940;
+    padding: 0rem 1rem;
+    border-radius: 20px;
+}
+
+.logo {
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#top-icon {
+    height: 3rem;
+    width: 3rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+#pfp {
+    max-height: 16rem;
+    width: auto;
+    padding: 0rem 1.875rem;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background-color: #332940;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#txt {
+    font-size: 1.75rem;
+    color: #F9FAF8;
+    margin: 0px
+}
+
+#subtxt {
+    font-size: 1.5rem;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #332940;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+#ski {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+.set {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icon {
+    height: 5rem;
+    width: auto;
+    padding: 0px 2rem;
+}
+
+#cap {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.pro1, .pro2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #332940;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 15px;
+}
+
+.pro1 {
+    align-self: flex-start;
+}
+
+.pro2 {
+    align-self: flex-end;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+#webp1 {
+    height: 12.5rem;
+    width: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+#webp2 {
+    width: 12.5rem;
+    height:auto;
+    display:flex;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #332940;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+a {
+    color: #E5E7EB;
+}
